@@ -13,7 +13,7 @@ namespace ExHospedes
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine();
-                Console.WriteLine("Aluguel # {i}: ");
+                Console.WriteLine($"Aluguel # {i}: ");
                 Console.Write("Nome: ");
                 string nome = Console.ReadLine();
                 Console.Write("E-mail: ");
